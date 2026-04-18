@@ -1,0 +1,27 @@
+Let Anyone Without AI(Q) Cast the First Stone
+What a Belgian academic controversy reveals about responsibility in the age of AI and the new kind of intelligence.
+Wim Sweldens
+Feb 01, 2026
+I returned to Belgium on January 8, after spending 34 years in the United States living and working as a scientist, technologist, and entrepreneur. That same day, Belgian media erupted over a controversy involving Professor Petra De Sutter, rector of Ghent University and a prominent and political public figure. The issue centered on an opening speech in which several incorrect quotations had been included with the use of AI. What followed was swift and unforgiving: headlines about “AI hallucinations,” questions about her academic integrity, and a broader debate about whether AI itself was to blame. Watching the speed and the severity of the public judgment - including from other university rectors, I felt compelled to write.
+
+Let’s be clear from the outset: Professor De Sutter made a serious mistake. But the core mistake was not the use of AI. The real issues were twofold: first, the lack of transparency about the use of AI, and second, the failure to properly verify quotations. Those are human errors that should be addressed through normal academic processes and reviews. AI is not the villain here.
+
+What this episode truly exposes is a much deeper and more important question: how do we use AI wisely and responsibly? That is a human question.
+
+Wharton professor Ethan Mollick often describes what he calls the jagged edge of AI: systems that perform exceptionally well at certain tasks, while failing, sometimes spectacularly, at others that look deceptively similar. The danger lies precisely there. Tasks that appear almost identical to humans can sit on opposite sides of that jagged edge.
+
+Navigating this requires a new kind of skill quite different from traditional IQ. What we increasingly need is what I have called AIQ: the ability to work effectively with AI while understanding its strengths, weaknesses, and failure modes.
+
+In very practical terms, the problem in this case could likely have been avoided. The same AI used to help draft a speech could have been complemented by a second, independent AI agent tasked specifically with fact-checking quotations and sources. Such an approach is an example of higher AIQ. It is not about replacing human judgment, but about designing systems that respect the jagged edge rather than stumble over it. The final responsibility for any work product including verifying sources must remain with the human author.
+
+This is where the real opportunity lies. For universities, and for Belgium as a country, this is a moment to refrain from moral panic and move toward leadership. We Belgians have long been proud of our “grey matter” as a national strength. Combining that human intelligence with thoughtful and responsible use of AI can create a new form of collective capability: high AIQ.
+
+Perhaps, then, we can worry less about a single high-profile mistake, and more about the many academics, professionals, and maybe even rectors that do not know how to use AI properly. Ironically, public criticism of AI use often comes from individuals who are later caught using it improperly themselves.
+
+For full transparency: this piece was written with the assistance of ChatGPT.
+
+— Wim Sweldens
+
+Entrepreneur and Honorary Professor, KU Leuven
+
+Sint-Truiden, Belgium

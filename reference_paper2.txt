@@ -1,0 +1,39 @@
+AIQ: Rethinking Human – AI Capability
+Why the debate on AGI and ASI is largely irrelevant.
+Wim Sweldens
+Sep 22, 2025
+When an oncologist uses an AI system to catch a subtle tumor on a scan that colleagues missed, AI is a lifesaver. When a business leader, dazzled by the hype, hands decision-making authority to a hallucinating and sycophantic chatbot, the technology is dangerous. These two vignettes illustrate that while AI has enormous capabilities, its value depends mostly on how well people understand its strengths and weaknesses.
+
+Wharton professor Ethan Mollick calls the high variability of AI performance the jagged edge: systems can excel at some surprisingly complex tasks while failing at others that seem simple. This jaggedness is a dynamic property. As models constantly update, the spikes shift: strengths get stronger but new weaknesses appear. Even as average capability rises, the frontier does not smooth out. One reason for AI’s irregular boundary is that models become extraordinarily strong in areas with clear, testable benchmarks — like math — by applying massive training resources. In contrast, performance remains uneven in domains where success is harder to measure, such as innovation, emotional awareness, or judgment.
+
+Individual human capability also varies widely. Unlike AI, the human edge changes slowly over a lifetime. While experience and knowledge grow and some cognitive abilities plateau or decline, the overall profile is relatively stable. There is a fundamental asymmetry in how humans and AI capabilities behave at scale. Aggregated across billions of humans, the envelope of human capability looks smoother, as strengths and weaknesses cancel out. In contrast, aggregating hundreds of major AI systems does little to smooth the overall envelope. Figure 1 illustrates the aggregate human and AI capabilities and their jagged edge.
+
+
+
+.
+
+Figure 1. Human vs. AI capability: the jagged AI boundary that is continuously shifting.
+
+We tend to intuit our own human capability boundary fairly well, both individually and collectively. The jagged edge of AI capability, however, is far less intuitive. Thus, we introduce Artificial Intelligence Quotient (AIQ) as: a human’s ability to understand and productively use the jagged edge of AI capability. High AIQ individuals know where the boundary is today, choose tasks and prompts that align with current strengths, and add the proper human checks in areas of weakness. People with low AIQ tend to either overhype AI or dismiss its capabilities altogether.
+
+Debates about artificial general intelligence or superintelligence often revolve around whether AI capability will eventually engulf and surpass human capability. These conversations are popular among futurists and pundits, but they can be indulgent distractions while real risks and opportunities go unaddressed. The relevant question is: where is the boundary today, where is it moving, and how do we design human – AI workflows that exploit the overlap responsibly? Due to its increasingly irregular frontier, AI will likely never surpass human capability and AGI/ASI might never be achieved. Humans will continue to dominate certain zones — such as empathy, judgment, and innovation.
+
+Recent research underscores this. Rigobon and Loaiza from MIT Sloan demonstrate that AI is more likely to augment human work than replace it. At Stanford, Brynjolfsson et al. caution against what they call the Turing Trap: the mistaken belief that the purpose of AI is to replicate human intelligence. As the workplace evolves, it is increasingly clear that jobs themselves may not disappear as quickly as workers who fail to adapt. The common refrain “AI won’t replace you, but someone using AI will” can now be phrased as: people who maintain high AIQ will increasingly replace those with low AIQ.
+
+The speed and irregular nature of AI progress create the urgent need for a concept like AIQ. Model updates arrive weekly, shifting capabilities faster than informal intuition can track. In fields such as health, finance, education, and safety, the stakes are high. High AIQ teams can convert AI capability into reliable productivity and avoid costly errors, while regulated domains require demonstrable judgment and verification.
+
+AIQ should be measured with current, task‑grounded instruments evolving with the frontier. A solid rubric should incorporate five concise markers of high AIQ:
+
+Prompting — crafting clear, adaptive instructions that match AI’s strengths.
+
+Context awareness — knowing what additional information the AI has or needs.
+
+Anticipating failures — recognizing hallucinations or sycophantic behavior.
+
+Verification and ethics — applying human judgment, checks, and guardrails.
+
+Workflow integration — embedding AI in processes that yield reliable value.
+
+AIQ assessments must be re‑baselined regularly, with items retired and added as the frontier shifts. Unless you maintain your AI, it will decrease over time. AI itself can constantly generate up-to-date AIQ tests — scenario questions, prompts, error‑spotting exercises, prediction tasks. For a simple demonstration, we published a short AIQ Test.
+
+Refining and evolving AIQ demands research. Education, psychometrics, and organizational behavior experts should collaborate to establish reliability and reproducibility, study how AIQ transfers between domains, build norms, and audit for fairness and bias. Policymakers should support research into valid, fair measures of AIQ and avoid a new “AIG divide.” Individuals can grow their AIQ now by experimenting thoughtfully, documenting successes and failures, and building habits of verification. Companies should embed AIQ assessments and training in workforce development. As AI power grows, the question is whether humanity will develop the skills — like AIQ — to navigate it wisely. I believe we will.
