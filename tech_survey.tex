@@ -1,0 +1,95 @@
+\documentclass[10pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=0.7in,bottom=0.75in,left=0.8in,right=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.15em, itemsep=0.2em, topsep=0.25em}
+\pagestyle{plain}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Related Concepts Around AIQ}}\\[0.25em]
+{\large A short technical survey for grant framing and team discussions}
+\end{center}
+
+\textbf{Purpose.}
+This note maps a set of adjacent concepts that are often discussed around modern AI use and explains how each one connects to \textbf{AIQ}, which we define as the human ability to understand and productively use the jagged, shifting boundary of AI capability \cite{sweldens2025aiq,sweldens2026stone}. The aim is not to force all ideas into one bucket, but to clarify that AIQ sits at a different level from model capability, prompting tricks, or evaluation tools. AIQ is a human and organizational capability: it determines whether AI becomes reliable augmentation or expensive confusion.
+
+\section*{1. Why AIQ needs its own concept}
+
+Recent discourse on AI practice has focused on improving \emph{models} or \emph{systems around models}. That work matters. But it does not remove the need for better human judgment. AI systems remain uneven and hard to calibrate. Ethan Mollick describes this as a ``jagged frontier'': models can perform impressively on some tasks and fail on nearby ones that look similar to humans \cite{mollick2023jagged}. This instability is exactly why AIQ matters. If the capability boundary were smooth and obvious, human skill in using AI would matter less. In reality, people must decide:
+
+\begin{itemize}
+\item which tasks to delegate to AI and which to retain;
+\item what context the model needs to succeed;
+\item what kinds of failures are likely in a given workflow;
+\item what verification, oversight, and escalation mechanisms are required.
+\end{itemize}
+
+AIQ therefore acts as the bridge between raw AI capability and real-world value. It is the human capacity that converts model performance into dependable outcomes.
+
+\section*{2. Adjacent concepts and their relationship to AIQ}
+
+\textbf{Prompt engineering.}
+Prompt engineering refers to the craft of phrasing instructions so a model produces better outputs \cite{openai2026prompt}. It remains useful, especially for structured tasks, but it is narrower than AIQ. Prompt engineering mostly operates at the interaction level: what to ask, how to specify format, and how to reduce ambiguity. AIQ includes this skill, but extends beyond it. A person can write a clean prompt and still have low AIQ if they choose the wrong task, provide the wrong evidence, trust the output too much, or fail to build checks around a risky use case. In short: prompt engineering is one tactic; AIQ is the broader human capability that decides when and how prompting should matter.
+
+\textbf{Context engineering.}
+Recent engineering practice has shifted from the prompt alone toward \emph{context engineering}: deciding what information, instructions, memory, tools, retrieved documents, and intermediate artifacts should be available to the model at runtime \cite{anthropic2025context}. This is highly relevant to AIQ because context quality strongly shapes output quality. But context engineering is still not identical to AIQ. Context engineering is primarily about shaping the model's working environment. AIQ is about the human ability to understand the task well enough to shape that environment intelligently. High-AIQ users know their own workflow, know what relevant context exists, and know what omissions are likely to cause failure. In that sense, AIQ is a precondition for good context engineering.
+
+\textbf{Harness engineering.}
+The emerging phrase \emph{harness engineering} pushes one layer higher. Rather than optimizing a single prompt or a single context window, it focuses on the whole operational scaffold around an agent: task decomposition, tools, guardrails, iteration loops, test cases, and feedback channels \cite{hashimoto2026harness,openai2026harness,boeckeler2026harness}. This concept is particularly useful for AIQ because it shows how individual skill scales into team practice. A high-AIQ individual may know how to supervise an agent well; a high-AIQ team encodes that knowledge into a repeatable harness so that performance is not left to improvisation. Put differently, harness engineering can be seen as the organizational externalization of AIQ.
+
+\textbf{Explainability and interpretability.}
+Explainability and interpretability research asks how model behavior can be made legible to humans. NIST frames explainable AI around principles such as meaningful explanation, explanation accuracy, and knowledge limits \cite{phillips2021xai}. DARPA's XAI program similarly treated explanation as a route toward more trustworthy human interaction with machine learning systems \cite{darpaXAI}. These ideas are closely related to AIQ but should not be collapsed into it. Explainability is a property of the interface, model, or method. AIQ is a property of the human user or team. Better explanations can support AIQ by improving calibration, but explanations alone do not guarantee wise use. High AIQ includes the ability to ask when an explanation is sufficient, when it is superficial, and when it should not be trusted.
+
+\textbf{Causality.}
+Pearl's work on causality distinguishes between prediction from observed patterns and reasoning about intervention, counterfactuals, and cause-effect structure \cite{pearl2009causality}. This distinction is central for AIQ. Much of today's generative AI is excellent at pattern completion, summarization, translation, and synthesis, but weaker at causal identification unless grounded in experiments, domain theory, or external evidence. High-AIQ users understand this boundary. They know that a fluent model answer to ``what will happen if we change X?'' may sound persuasive while lacking causal warrant. In high-stakes settings, AIQ therefore includes knowing when additional empirical methods, domain experts, or formal causal reasoning are required.
+
+\textbf{Augmentation versus automation.}
+An important line of research argues that the biggest value of AI may come from complementarity rather than pure substitution. Brynjolfsson warns against the ``Turing Trap,'' the mistaken idea that the best use of AI is always to imitate humans as closely as possible \cite{brynjolfsson2022turing}. Loaiza and Rigobon similarly emphasize human-machine complementarities in work design \cite{loaiza2024epoch}. This literature gives AIQ a normative direction. High AIQ does not simply mean ``use more AI.'' It means designing workflows in which AI handles what it is good at, humans retain responsibility for judgment where needed, and the combined system performs better than either alone.
+
+\section*{3. A compact synthesis}
+
+The concepts above operate at different levels:
+
+\begin{center}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.23\linewidth} >{\raggedright\arraybackslash}p{0.32\linewidth} >{\raggedright\arraybackslash}p{0.35\linewidth}}
+\textbf{Concept} & \textbf{Primary focus} & \textbf{Relationship to AIQ} \\
+\hline
+Prompt engineering & The wording of instructions & A narrow but useful component skill within AIQ \\
+Context engineering & The information available to the model at runtime & A design practice that depends on human workflow understanding \\
+Harness engineering & The full operational scaffold around agents & The team- or system-level expression of AIQ \\
+Explainability / interpretability & Making model behavior legible & A support for calibration, not a substitute for AIQ \\
+Causality & Distinguishing correlation from intervention and mechanism & A boundary condition that high-AIQ users must recognize \\
+Augmentation / complementarity & Human--AI division of labor & A strategic objective that AIQ helps realize \\
+Jagged frontier & Uneven and shifting AI capability & The empirical reason AIQ is necessary in the first place \\
+\end{tabular}
+\end{center}
+
+\section*{4. Implications for a grant project}
+
+This survey suggests a practical research agenda. A grant project on AIQ should not try to compete with frontier model labs on raw capability. Instead, it should target the missing human layer:
+
+\begin{itemize}
+\item \textbf{Conceptual work:} define AIQ precisely enough to distinguish it from prompting, interface literacy, and generic digital skills.
+\item \textbf{Measurement:} develop early rubrics or task-based assessments that capture whether a person can select tasks well, provide the right context, anticipate failures, and verify outputs.
+\item \textbf{Workflow studies:} observe how AIQ varies across domains such as research, administration, healthcare, education, and entrepreneurship.
+\item \textbf{Interventions:} design training, tools, and harnesses that raise AIQ at the level of individuals and teams.
+\end{itemize}
+
+This framing is well suited to an interdisciplinary team. It creates a meeting point for AI researchers, HCI scholars, educators, psychologists, organizational scientists, ethicists, and domain practitioners. The underlying claim is simple: in the next phase of AI adoption, the bottleneck is not only smarter models. It is smarter human use.
+
+\bibliographystyle{plain}
+\bibliography{sample}
+
+\end{document}

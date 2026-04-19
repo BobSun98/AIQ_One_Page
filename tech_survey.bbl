@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{anthropic2025context}
+{Anthropic}.
+\newblock Effective context engineering for {AI} agents.
+\newblock
+  \url{https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents},
+  September 2025.
+\newblock Engineering blog.
+
+\bibitem{boeckeler2026harness}
+Birgitta Boeckeler.
+\newblock Harness engineering for coding agent users.
+\newblock \url{https://martinfowler.com/articles/harness-engineering.html},
+  April 2026.
+\newblock Martin Fowler.
+
+\bibitem{brynjolfsson2022turing}
+Erik Brynjolfsson.
+\newblock The turing trap: The promise \& peril of human-like artificial
+  intelligence.
+\newblock {\em Daedalus}, 151(2):272--287, 2022.
+
+\bibitem{darpaXAI}
+{DARPA}.
+\newblock {XAI}: Explainable artificial intelligence.
+\newblock
+  \url{https://www.darpa.mil/research/programs/explainable-artificial-intelligence},
+  2026.
+\newblock Program overview page accessed April 2026.
+
+\bibitem{hashimoto2026harness}
+Mitchell Hashimoto.
+\newblock My {AI} adoption journey.
+\newblock \url{https://mitchellh.com/writing/my-ai-adoption-journey}, February
+  2026.
+\newblock Step 5 introduces `Engineer the Harness'.
+
+\bibitem{loaiza2024epoch}
+Isabella Loaiza and Roberto Rigobon.
+\newblock The {EPOCH} of {AI}: Human-machine complementarities at work.
+\newblock Technical Report MIT Sloan Research Paper No. 7236-24, MIT Sloan
+  School of Management, 2024.
+
+\bibitem{openai2026harness}
+Ryan Lopopolo.
+\newblock Harness engineering: Leveraging codex in an agent-first world.
+\newblock \url{https://openai.com/index/harness-engineering/}, February 2026.
+\newblock OpenAI engineering post.
+
+\bibitem{mollick2023jagged}
+Ethan Mollick.
+\newblock Centaurs and cyborgs on the jagged frontier.
+\newblock
+  \url{https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged},
+  September 2023.
+\newblock One Useful Thing.
+
+\bibitem{openai2026prompt}
+{OpenAI}.
+\newblock Prompt engineering.
+\newblock \url{https://platform.openai.com/docs/guides/prompt-engineering},
+  2026.
+\newblock Official documentation.
+
+\bibitem{pearl2009causality}
+Judea Pearl.
+\newblock {\em Causality: Models, Reasoning, and Inference}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{phillips2021xai}
+P.~Jonathon Phillips, Carina Hahn, Peter Fontana, Amy Yates, Kristen~K. Greene,
+  David~A. Broniatowski, and Mark~A. Przybocki.
+\newblock Four principles of explainable artificial intelligence.
+\newblock Technical Report NISTIR 8312, National Institute of Standards and
+  Technology, 2021.
+
+\bibitem{sweldens2025aiq}
+Wim Sweldens.
+\newblock {AIQ}: Rethinking human--{AI} capability, September 2025.
+\newblock Project reference essay shared locally.
+
+\bibitem{sweldens2026stone}
+Wim Sweldens.
+\newblock Let anyone without {AI(Q)} cast the first stone, February 2026.
+\newblock Project reference essay shared locally.
+
+\end{thebibliography}
